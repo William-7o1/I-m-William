@@ -1,0 +1,36 @@
+.button{
+    padding: .2rem 1.2rem;
+    font-family: 'Lancelot', cursive;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 3.4px;
+}
+
+.button.primary-button{
+    background: #0278ae;
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+    font-size: 80%;
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.primary-button::after, .button.secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px;  right: -2px;
+    background: #4f98ca;
+    content: ' ';
+    z-index: -1;
+    border-radius: 4px;
+}
+p.para{
+    color: var(--text-color);
+
+}
