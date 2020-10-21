@@ -1,0 +1,512 @@
+@import url(./partials/variable.css);
+@import url(./partials/global.css);
+
+
+/*Sticky NAvigation Bar*/
+
+header{
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+
+}
+
+/*Sticky NAvigation Bar*/
+
+
+/* NAvigation Bar*/
+
+.header_area .main-menu .navbar .navbar-brand{
+  padding: 0 2rem 0 2rem;
+
+}
+
+.header_area .main-menu .navbar{
+  padding: .4rem 4rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+  text-transform:  uppercase;
+  font-weight: 500;
+  padding: .75rem;
+  color: #333;
+}
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #4f98ca;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #4f98ca;
+    background-clip: text;
+}
+
+
+/*      NAV     */
+
+
+
+/*      BANNER     */
+
+
+.site-main .site-banner .site-title h3{
+    padding-top: 45%;
+    font-weight: 500;
+    padding-left: 18%;
+}
+
+.site-main .site-banner .banner-image{
+  padding-left: 6%;
+  padding-top: 8%;
+
+}
+
+
+.site-main .site-banner .site-title h1{
+    padding-left: 14%
+}
+.site-main .site-button{
+  padding-left: 65%;
+  padding-top: 1.5%;
+}
+
+.title-text{
+  font-family: 'Asul', sans-serif;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 8vw;
+    background: black;
+    display: inline-block;
+    margin-left: 2%;
+    transform: translateY(-10px);
+}
+.site-main .site-banner .site-title h3::before{
+    content: " ";
+    height: 2px;
+    width: 8vw;
+    background: black;
+    display: inline-block;
+    margin-right: 2%;
+    transform: translateY(-10px);
+}
+
+
+/*      BANNER     */
+
+
+
+
+/*      ABOUT     */
+
+
+.site-main .about-area{
+    padding: 5rem 5rem;
+}
+
+.site-main .about-area .row{
+    padding-left: 18%;
+
+}
+.site-main .about-area .row .about-image{
+  width: 85%;
+  position: absolute;
+  right: 35%;
+  top: 11.5%;
+}
+
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    letter-spacing: 18px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+
+/*      ABOUT     */
+
+
+
+
+/*      Skills     */
+
+
+.site-main .services-area{
+    padding: 1rem 3rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 4 12rem;
+
+}
+
+.site-main .services-area .services-title h1::after{
+  content: " ";
+  height: 2px;
+  width: 10vw;
+  background: black;
+  display: inline-block;
+  margin-right: 5%;
+  transform: translateY(-10px)translateX(+5px);
+}
+
+.site-main .services-area .services-title h1::before{
+  content: " ";
+  height: 2px;
+  width: 10vw;
+  background: black;
+  display: inline-block;
+  margin-right: 5%;
+  transform: translateY(-10px) translateX(47px);
+
+}
+
+
+
+.site-main > .services-area .services{
+    background: #f6f5f5  ;
+    padding: 2.5rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .8s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+
+/*      Skills    */
+
+.site-main .project-area .project-title{
+  padding-top: 8%;
+}
+
+.site-main .project-area .project-title h1::after{
+  content: " ";
+  height: 2px;
+  width: 10vw;
+  background: black;
+  display: inline-block;
+  margin-right: 3.5%;
+  transform: translateY(-10px)translateX(+5px);
+}
+
+.site-main .project-area .project-title h1::before{
+  content: " ";
+  height: 2px;
+  width: 10vw;
+  background: black;
+  display: inline-block;
+  margin-right: 5%;
+  transform: translateY(-10px) translateX(+47px);
+
+}
+
+
+
+
+/*     PROJEXTS    */
+/*     First    */
+
+.site-main .first-area{
+    padding: 2rem 3rem;
+}
+
+.site-main .first-area .row{
+
+  padding-left: 18%;
+
+}
+.site-main .first-area .row .first-image{
+  width: 85%;
+  position: absolute;
+  right: 35%;
+  bottom: 12%;
+
+}
+
+.site-main .first-area .first-title h2 > span{
+    display: block;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 18px;
+    font-size: 75%;
+}
+
+.site-main .first-area .first-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+
+/*     First    */
+
+/*    secondary    */
+
+
+.site-main .secondary-area{
+    padding: .1rem 3rem;
+}
+
+.site-main .secondary-area .row{
+
+  padding-left: 18%;
+  padding-top: 3%;
+
+}
+.site-main .secondary-area .row .secondary-image{
+  width: 85%;
+  position: absolute;
+  right: 30%;
+  bottom: 8%;
+
+}
+
+.site-main .secondary-area .secondary-title h2 > span{
+    display: block;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 18px;
+    font-size: 75%;
+}
+
+.site-main .secondary-area .secondary-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/*    secondary    */
+
+/*    third   */
+.site-main .third-area{
+    padding: 0.5rem 3rem;
+}
+
+.site-main .third-area .row{
+
+  padding-left: 18%;
+  padding-top: 3%;
+
+}
+.site-main .third-area .row .third-image{
+  width: 90%;
+  position: absolute;
+  right: 25%;
+  top: 2%;
+
+}
+
+.site-main .third-area .third-title h2 > span{
+    display: block;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 18px;
+    font-size: 75%;
+}
+
+.site-main .third-area .third-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+
+/*    third   */
+
+
+/*    forth  */
+
+.site-main .forth-area{
+    padding: 0.5rem 2rem;
+}
+
+.site-main .forth-area .row{
+
+  padding-left: 18%;
+  padding-top: 4%;
+
+}
+.site-main .forth-area .row .forth-image{
+  width: 90%;
+  position: absolute;
+  right: 30%;
+  bottom: 12%;
+
+}
+
+.site-main .forth-area .forth-title h2 > span{
+    display: block;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 18px;
+    font-size: 75%;
+}
+
+.site-main .forth-area .forth-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+
+/*   forth   */
+
+/*      PROJEXTS   */
+
+
+
+
+/*   Blogs   */
+
+
+
+.site-main .blog-area{
+    padding: 5rem 3rem;
+}
+
+.site-main .blog-area .blog-title{
+    padding: 0 12rem;
+
+}
+
+.site-main .blog-area .blog-title h1::after{
+  content: " ";
+  height: 2px;
+  width: 10vw;
+  background: black;
+  display: inline-block;
+  margin-right: 5%;
+  transform: translateY(-10px)translateX(+5px);
+}
+
+.site-main .blog-area .blog-title h1::before{
+  content: " ";
+  height: 2px;
+  width: 10vw;
+  background: black;
+  display: inline-block;
+  margin-right: 5%;
+  transform: translateY(-10px) translateX(+30px);
+
+}
+
+
+
+.site-main > .blog-area .services{
+    background: #f6f6f6  ;
+    padding: 1.5rem 0;
+    width: 15rem;
+    height: 80%;
+    margin: 2rem .1rem;
+    transition: box-shadow .5s ease;
+}
+
+.site-main > .blog-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+
+
+/*   Blog   */
+
+
+
+
+
+
+/*   MUSIC   */
+
+
+
+.section-1 {
+  padding: 3vmin 0vmin;
+}
+
+.section-1 .row .col-md-6 .pray img {
+  padding-top: 1%;
+  opacity: 0.8;
+  width: 80%;
+  border-radius: 0.3em;
+}
+
+.section-1 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+  position: absolute;
+  top: 12vmin;
+  left: -18vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 8vmin 4vmin 12vmin 8vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: var(--Rubik);
+  z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.3em 0;
+  font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/*   MUSIC   */
+
+
+
+
+
+
+
+
+
+
+
+.gfg {
+    position: relative;
+    padding-top: 8%;
+}
+
+.first-txt {
+    font-size: 72px;
+    color: white;
+    font-family: 'Sora', sans-serif;
+    position: absolute;
+    top: 31.5%;
+    left: 33%;
+
+}
+
+.lin{
+  position: absolute;
+  bottom: 25%;
+  left: 15%;
+}
+
+
+.mail{
+  position: absolute;
+  bottom: 25%;
+  left: 58%;
+}
+
+.git{
+  position: absolute;
+
+  bottom: 25%;
+  left: 38%;
+}
+
+.ins{
+  position: absolute;
+  bottom: 25%;
+  left: 78%;
+}
