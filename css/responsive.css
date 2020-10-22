@@ -2,19 +2,59 @@
 /* if the viewport is equal to 340px or less than that */
 @media only screen and (max-width: 340px){
     .header_area .main-menu .navbar,
-    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .subscribe-us-area .subscribe .subscribe-title,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
+    .site-main .services-area,
+    .site-main .subscribe-us-area .subscribe
     {
-        padding: 5%;
+        padding: 2%;
         margin: 0%;
-        width: 2%;
     }
 
-    .site-main .site-banner .site-title h1{
-        font-size: 20px;
-        text-align: center;
-        width: 2%;
-        margin: 0%;
+    .site-main .site-banner .site-title h3{
+        font-size: 26px;
+        padding: 1%;
+        padding-top: 60%;
+        padding-left: 44%;
+        margin: 0;
     }
+
+    .site-main .site-banner .site-title h3::after{
+        content: " ";
+        height: 2px;
+        width: 2vw;
+        background: blacks;
+        display: inline-block;
+        margin-left: 2%;
+        transform: translateY(-10px);
+    }
+    .site-main .site-banner .site-title h3::before{
+        content: " ";
+        height: 2px;
+        width: 2vw;
+        background: black;
+        display: inline-block;
+        margin-right: 2%;
+        transform: translateY(-10px);
+    }
+
+
+
+    .site-main .site-banner .site-title h1{
+        text-align: right;
+        font-size: 48px;
+        padding-top: 5%;
+        padding-left: 40%;
+
+    }
+    .site-main .site-banner .banner{
+      margin: 0%;
+      width: 130%;
+      padding-left: 35%;
+    }
+
+
+
 
     .site-main .subscribe-us-area .subscribe form .input-textbox input{
         width: 15rem    !important;
@@ -23,6 +63,11 @@
     .site-main > .services-area .services{
         width: 13rem;
     }
+
+    .gfg .image{
+      width: 20%;
+    }
+
 
 }
 
@@ -54,25 +99,7 @@
 
     .site-main .about-area .about-title p{
         padding: 0%;
-    }
-
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 20rem;
-        margin: 5%;
-    }
-
-    .section-1 .panel p{
-      text-align: center;
-      align-items: center;
-      width: 10%;
-      margin: 0%;
-      padding: 1%;
-    }
-
-    .gfg .image{
-      width: 10%;
-      margin: 0% ;
-      padding: 1%;
+        margin: 0%;
     }
 
 }
@@ -83,6 +110,7 @@
 @media only screen and (max-width: 1910px){
     .header_area .main-menu .navbar{
         padding: 1rem;
+        align-items: center;
     }
 
     .container{
