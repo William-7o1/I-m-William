@@ -395,11 +395,11 @@ header{
 
 .site-main > .blog-area .services{
     background: #f6f6f6  ;
-    padding: 2rem 0rem;
-    width: 13rem;
+    padding: 1.5rem .5rem;
+    width: 12rem;
     height: 78%;
     margin: 1.5rem 0rem;
-    transition: box-shadow .5s ease;
+    transition: box-shadow .6s ease;
 }
 
 .site-main > .blog-area .services:hover{
