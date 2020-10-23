@@ -175,9 +175,9 @@ header{
 
 .site-main > .services-area .services{
     background: #f6f5f5  ;
-    padding: 2.5rem 0;
-    width: 16rem;
-    margin: 5rem .5rem;
+    padding: 2rem 0;
+    width: 13rem;
+    margin: 2rem .5rem;
     transition: box-shadow .8s ease;
 }
 
@@ -395,10 +395,10 @@ header{
 
 .site-main > .blog-area .services{
     background: #f6f6f6  ;
-    padding: 1.5rem 0;
-    width: 15rem;
-    height: 80%;
-    margin: 2rem .1rem;
+    padding: 2rem 0rem;
+    width: 13rem;
+    height: 78%;
+    margin: 1.5rem 0rem;
     transition: box-shadow .5s ease;
 }
 
@@ -480,7 +480,7 @@ header{
     color: white;
     font-family: 'Sora', sans-serif;
     position: absolute;
-    top: 31.5%;
+    top: 28.5%;
     left: 33%;
 
 }
