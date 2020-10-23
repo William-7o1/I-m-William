@@ -1,6 +1,9 @@
 
 /* if the viewport is equal to 340px or less than that */
-@media only screen and (max-width: 340px){
+@media only screen and (max-width: 575.98px){
+
+
+
     .header_area .main-menu .navbar,
     {
         padding: 5%;
@@ -8,7 +11,7 @@
     }
 
     .site-main .site-banner .container{
-      padding-left: 14%;
+      padding-left: 11%;
     }
 
     .header_area .main-menu .navbar .image{
@@ -16,18 +19,27 @@
       right: 80%;
       top:2%;
     }
+
+    .site-main {
+    padding-left: 25%;}
+
     .site-main .site-banner .site-title h3{
-        font-size: 26px;
-        padding: 1%;
-        padding-top: 60%;
-        padding-left: 44%;
+        font-size: 21.5px;
+        padding: 0%;
+        padding-top: 64%;
+        padding-left: 34%;
         margin: 0;
+    }
+
+
+    .site-main .site-banner .site-title .site-button{
+      padding-left: 99%;
     }
 
     .site-main .site-banner .site-title h3::after{
         content: " ";
         height: 2px;
-        width: 2vw;
+        width: 3vw;
         background: blacks;
         display: inline-block;
         margin-left: 2%;
@@ -36,7 +48,7 @@
     .site-main .site-banner .site-title h3::before{
         content: " ";
         height: 2px;
-        width: 2vw;
+        width: 3vw;
         background: black;
         display: inline-block;
         margin-right: 2%;
@@ -47,56 +59,116 @@
 
     .site-main .site-banner .site-title h1{
         text-align: right;
-        font-size: 48px;
+        font-size: 46px;
         padding-top: 5%;
-        padding-left: 40%;
+        padding-left: 28%;
 
     }
     .site-main .site-banner .banner{
       margin: 0%;
-      width: 135%;
-      padding-left: 38%;
+      width: 195%;
+      padding-right: 15%;
     }
 
 
 
 
     .gfg .image{
-      width: 50%;
+      width: 54%;
     }
+
+
+
+
+
 /* about*/
 
 
 .site-main .about-area{
-    padding: 0%;
+    padding: 2%;
 }
 
 .site-main .about-area .row{
     padding-left: 28%;
 
+
+
 }
 .site-main .about-area .row .about-image{
   width: 85%;
-  position: absolute;
-  right: 35%;
-  top: 20%;
+
 }
 
 
 .site-main .about-area .about-title h2 > span{
     display: block;
-    letter-spacing: 18px;
-    padding-left: 25%;
+    letter-spacing: 14px;
+    s
 }
 
 .site-main .about-area .about-title .paragraph > p{
-    padding: .4rem 0;
-}
+    padding: 1%;
+  }
 
 
 
 
 
+
+
+
+
+  /*      Skills     */
+
+
+  .site-main .services-area{
+      padding: 2rem 6.5rem;
+  }
+
+  .site-main .services-area .services-title{
+      padding: 2rem 4rem;
+
+  }
+  .site-main .services-area .services-title h1{
+    font-size: 40px;
+    padding-left: 35%;
+  }
+
+
+  .site-main .services-area .services-title h1::after{
+    content: " ";
+    height: 2px;
+    width: 3vw;
+    background: black;
+    display: inline-block;
+    margin-right: 2%;
+    transform: translateY(-10px)translateX(+5px);
+  }
+
+  .site-main .services-area .services-title h1::before{
+    content: " ";
+    height: 2px;
+    width: 3vw;
+    background: black;
+    display: inline-block;
+    margin-right: 2%;
+    transform: translateY(-10px) translateX(47px);
+
+  }
+
+
+
+  .site-main > .services-area .services{
+      background: #f6f5f5  ;
+      padding: 2rem 0;
+      width: 13rem;
+      margin: 2rem .5rem;
+      transition: box-shadow .8s ease;
+  }
+
+  .site-main > .services-area .services:hover{
+      box-shadow: var(--box-shadow);
+  }
 
 
 
