@@ -1480,6 +1480,8 @@
 
   .site-main .services-area .services-title{
       padding:0;
+      padding-top: 8%;
+      padding-right: 5%;
   }
   .site-main .services-area .services-title h1::before{
        content: " ";
@@ -1501,7 +1503,7 @@
        padding-left: 2%;
        padding: 2rem 3;
        width: 16rem;
-       margin: 2rem 6.8rem;
+       margin: 2rem 6.2rem;
        transition: box-shadow .8s ease;
    }
 
@@ -1527,7 +1529,7 @@
    }
 
    .site-main .first-area .row{
-     padding-left: 22%;
+     padding-left: 20%;
 
    }
 
@@ -1557,7 +1559,7 @@
 
        .site-main .secondary-area .row{
 
-         padding-left: 22%;
+         padding-left: 20%;
          padding-top: 1%;
 
        }
@@ -1589,7 +1591,7 @@
 
        .site-main .third-area .row{
 
-         padding-left: 22%;
+         padding-left: 20%;
          padding-top: 1.5%;
 
        }
@@ -1626,7 +1628,7 @@
 
        .site-main .forth-area .row{
 
-         padding-left: 22%;
+         padding-left: 20%;
          padding-top: 3%;
 
        }
@@ -1652,7 +1654,7 @@
        .site-main .blog-area .blog-title{
           padding: 0;
           padding-left: 2%;
-            
+
 
       }
 
