@@ -278,7 +278,7 @@
 
     .site-main .blog-area .blog-title{
         padding: 1rem 12rem;
-        padding-right: 20%;
+        padding-left: 29%;
     }
 
     .site-main .blog-area .blog-title h1::after{
@@ -354,7 +354,7 @@
         font-family: 'Sora', sans-serif;
         position: absolute;
         top: 28.5%;
-        left: 32%;
+        left: 30%;
 }
 
 
@@ -362,6 +362,7 @@
 
 
 @media (max-width: 991px) {
+
 
   .site-main .site-banner .site-title h1{
 
@@ -418,7 +419,7 @@
 
   .site-main .services-area .services-title{
       padding: 0.5rem 8rem;
-      padding-left: 17.5%;
+      text-align: center;
       padding-bottom: 1.5%;
 }
 
@@ -461,7 +462,7 @@
 
   .site-main .project-area .project-title{
     padding-top: 8%;
-    padding-left:2.5%;
+    text-align: center;
   }
   .site-main .project-area .project-title h1::after{
     content: " ";
@@ -496,12 +497,12 @@
       display: block;
       font-family: 'Anton', sans-serif;
       letter-spacing: 16px;
-      font-size: 20px;
+      font-size: 22px;
   }
 
   .site-main .first-area .first-title .paragraph > p{
       padding: .4rem 0;
-      font-size: 16px;
+      font-size: 18px;
   }
 
   .site-main .first-area .row .first-image{
@@ -526,12 +527,12 @@
           display: block;
           font-family: 'Anton', sans-serif;
           letter-spacing: 16px;
-          font-size: 20px;
+          font-size: 22px;
       }
 
       .site-main .secondary-area .secondary-title .paragraph > p{
           padding: .4rem 0;
-          font-size: 16px;
+          font-size: 18px;
       }
       .site-main .secondary-area .row .secondary-image{
         width: 70%;
@@ -557,12 +558,12 @@
           display: block;
           font-family: 'Anton', sans-serif;
           letter-spacing: 16px;
-          font-size: 20px;
+          font-size: 22px;
       }
 
       .site-main .third-area .third-title .paragraph > p{
           padding: .4rem 0;
-          font-size: 16px;
+          font-size: 18px;
       }
       .site-main .third-area .row .third-image{
         width: 73%;
@@ -599,12 +600,12 @@
           display: block;
           font-family: 'Anton', sans-serif;
           letter-spacing: 16px;
-          font-size: 20px;
+          font-size: 22px;
       }
 
       .site-main .forth-area .forth-title .paragraph > p{
           padding: .4rem 0;
-          font-size: 16px;
+          font-size: 18px;
       }
 
 
@@ -614,6 +615,7 @@
       .site-main .blog-area .blog-title{
           padding: 1rem 12rem;
           padding-right: 25%;
+          text-align: center;
       }
 
       .site-main .blog-area .blog-title h1::after{
@@ -696,9 +698,1022 @@
         color: rgba(0, 0, 0, 0.5);
       }
 
+      .first-txt {
+          font-size: 72px;
+          color: white;
+          font-family: 'Sora', sans-serif;
+          position: absolute;
+          top: 28.5%;
+          left: 27%;
 
-
+      }
 
 
 
 }
+
+@media  (max-width: 770px) {
+  .header_area .main-menu .navbar{
+     padding: 2.5%;
+        margin: 0%;
+   }
+   .site-main .site-banner{
+     padding-top: 4%;
+   }
+
+   .first-txt {
+       font-size: 65px;
+       color: white;
+       font-family: 'Sora', sans-serif;
+       position: absolute;
+       top: 28.5%;
+       left: 23.2%;
+
+   }
+
+
+
+
+ @media (max-width: 767px) {
+
+   .site-main .site-banner .site-title h1{
+
+     padding-left: 2.5%;
+     font-size:29px;
+   }
+   .site-main .site-banner .site-title h3{
+     padding-left: 11%;
+     padding-top: 52%;
+     font-size: 23px;
+   }
+   .site-main .site-banner .banner{
+     padding-right: 2%;
+     padding-top: 10%;
+     width: 100%;
+     position: static;
+   }
+
+   .site-main .site-banner .site-button{
+     position: static;
+     padding-left: 60%;
+
+
+   }
+
+   .gfg{
+     width: 100%;
+   }
+
+
+
+   .site-main .about-area .row .about-image{
+     width: 110%;
+    padding-left: 5%;
+
+   }
+
+   .site-main .about-area .about-title h2 > span{
+       display: block;
+       letter-spacing: 12px;
+       font-size: 23px;
+   }
+
+   .site-main .about-area .about-title .paragraph > p{
+       padding: .3rem 0rem;
+       font-size: 16px;
+   }
+
+
+
+
+
+
+   .site-main .services-area .services-title{
+       padding: 0.5rem 8rem;
+       padding-left: 17.5%;
+       padding-bottom: 1.5%;
+ }
+
+
+   .site-main .services-area .services-title h1::after{
+     content: " ";
+     height: 2px;
+     width: 9.5vw;
+     background: black;
+     display: inline-block;
+     margin-right: 5%;
+     transform: translateY(-10px)translateX(+5px);
+   }
+
+   .site-main .services-area .services-title h1::before{
+     content: " ";
+     height: 2px;
+     width: 9.5vw;
+     background: black;
+     display: inline-block;
+     margin-right: 8%;
+     transform: translateY(-10px) translateX(32px);
+
+   }
+
+
+   .site-main > .services-area .services{
+       margin-left: 5%;
+       margin-right: 6%;
+       background: #f6f5f5  ;
+       padding-left: 2%;
+       padding: 2rem 3;
+       width: 16.3rem;
+       margin: 2rem 8rem;
+       transition: box-shadow .8s ease;
+   }
+
+
+
+
+   .site-main .project-area .project-title{
+     padding-top: 8%;
+     padding-left:2.5%;
+   }
+   .site-main .project-area .project-title h1::after{
+     content: " ";
+     height: 2px;
+     width: 9.5vw;
+     background: black;
+     display: inline-block;
+     margin-right: 3%;
+     transform: translateY(-10px)translateX(+1px);
+   }
+
+   .site-main .project-area .project-title h1::before{
+     content: " ";
+     height: 2px;
+     width: 9.5vw;
+     background: black;
+     display: inline-block;
+     margin-right: 7%;
+     transform: translateY(-10px) translateX(+50px);
+   }
+
+   .site-main .first-area{
+       padding: 1rem 2rem;
+   }
+
+   .site-main .first-area .row{
+     padding-left: 26%;
+
+   }
+
+   .site-main .first-area .first-title h2 > span{
+       display: block;
+       font-family: 'Anton', sans-serif;
+       letter-spacing: 16px;
+       font-size: 20px;
+   }
+
+   .site-main .first-area .first-title .paragraph > p{
+       padding: .4rem 0;
+       font-size: 16px;
+   }
+
+   .site-main .first-area .row .first-image{
+     padding-top: 5%;
+     position: static;
+     padding-right:2%;
+     width: 70%;
+   }
+
+       .site-main .secondary-area{
+           padding: .1rem 2.5rem;
+       }
+
+       .site-main .secondary-area .row{
+
+         padding-left: 26%;
+         padding-top: 1%;
+
+       }
+
+       .site-main .secondary-area .secondary-title h2 > span{
+           display: block;
+           font-family: 'Anton', sans-serif;
+           letter-spacing: 16px;
+           font-size: 20px;
+       }
+
+       .site-main .secondary-area .secondary-title .paragraph > p{
+           padding: .4rem 0;
+           font-size: 16px;
+       }
+       .site-main .secondary-area .row .secondary-image{
+         width: 70%;
+         padding-left: 5%;
+         position: static;
+       }
+
+
+
+       /*    third   */
+       .site-main .third-area{
+           padding: 0.5rem 3rem;
+       }
+
+       .site-main .third-area .row{
+
+         padding-left: 26%;
+         padding-top: 1.5%;
+
+       }
+
+       .site-main .third-area .third-title h2 > span{
+           display: block;
+           font-family: 'Anton', sans-serif;
+           letter-spacing: 16px;
+           font-size: 20px;
+       }
+
+       .site-main .third-area .third-title .paragraph > p{
+           padding: .4rem 0;
+           font-size: 16px;
+       }
+       .site-main .third-area .row .third-image{
+         width: 73%;
+         padding-left: 4%;
+         position:static;
+
+       }
+
+
+
+       /*    third   */
+
+
+       /*    forth  */
+
+       .site-main .forth-area{
+           padding: 0.5rem 2rem;
+       }
+
+       .site-main .forth-area .row{
+
+         padding-left: 26%;
+         padding-top: 3%;
+
+       }
+       .site-main .forth-area .row .forth-image{
+         padding-top: 5%;
+         position: static;
+         padding-right: 4%;
+         width: 71%
+     }
+
+       .site-main .forth-area .forth-title h2 > span{
+           display: block;
+           font-family: 'Anton', sans-serif;
+           letter-spacing: 16px;
+           font-size: 20px;
+       }
+
+       .site-main .forth-area .forth-title .paragraph > p{
+           padding: .4rem 0;
+           font-size: 16px;
+       }
+
+
+
+
+
+       .site-main .blog-area .blog-title{
+           padding: 1rem 10rem;
+           padding-left: 26%;
+       }
+
+       .site-main .blog-area .blog-title h1::after{
+         content: " ";
+         height: 2px;
+         width: 8.7vw;
+         background: black;
+         display: inline-block;
+         margin-right: 5%;
+         transform: translateY(-10px)translateX(+1px);
+       }
+       .site-main .blog-area .blog-title h1::before{
+         content: " ";
+         height: 2px;
+         width: 8.7vw;
+         background: black;
+         display: inline-block;
+         margin-right: 4%;
+         transform: translateY(-10px) translateX(+12px);
+
+       }
+
+       .site-main > .blog-area .services{
+           margin-left: 5%;
+           margin-right: 5%;
+           background: #f6f6f6  ;
+           padding: 2rem .5rem;
+           width: 17rem;
+           height: 80%;
+           margin: 2rem 8rem;
+           transition: box-shadow .6s ease;
+       }
+
+       .site-main > .blog-area .services:hover{
+           box-shadow: var(--box-shadow);
+       }
+
+
+
+
+
+
+
+
+       .section-1 {
+         padding: 3vmin 0vmin;
+       }
+
+       .section-1 .row .col-md-6 .pray img {
+         opacity: 0.8;
+         width: 70%;
+         border-radius: 0.2em;
+       }
+
+       .section-1 .row .col-md-6:last-child {
+         position: static;
+       }
+
+
+       .section-1 .row .col-md-6 .panel {
+         position: static;
+         background: white;
+         border-radius: 3px;
+         text-align: left;
+         padding: 2.5vmin 1.5vmin 4.5vmin 4.5vmin;
+         box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+         font-family: var(--Rubik);
+         z-index: 1;
+       }
+
+       .section-1 .row .col-md-4 .panel h1 {
+         font-weight: bold;
+         padding: 0.3em 0;
+         font-size: 1em;
+       }
+
+       .section-1 .row .col-md-4 .panel p {
+         font-size: 0.6em;
+         color: rgba(0, 0, 0, 0.5);
+       }
+
+
+       .first-txt {
+           font-size: 60px;
+           color: white;
+           font-family: 'Sora', sans-serif;
+           position: absolute;
+           top: 28.5%;
+           left: 25%;
+
+       }
+
+
+
+
+
+
+ }
+ @media (max-width: 720px) {
+
+   .site-main .site-banner .site-title h1{
+     font-size:34px;
+     padding-left: 10%;
+     text-align: center;
+   }
+   .site-main .site-banner .site-title h3{
+     font-size: 28px;
+     text-align: center;
+     padding-top: 45%;
+   }
+   .site-main .site-banner .banner {
+     position: absolute;
+     left: 2%;
+     top: 1.5%;
+     width: 100%;
+   }
+
+   .site-main .site-banner .site-button{
+     padding-left: 55%;
+   }
+
+
+
+
+
+
+   .about-area .about-title{
+     position: static;
+   }
+
+   .site-main .about-area .row .about-image{
+     width: 100%;
+     position: absolute;
+     right: 30%;
+     top: 10.5%;
+   }
+
+   .site-main .about-area .about-title h2 > span{
+       display: block;
+       letter-spacing: 14px;
+       font-size: 26px;
+   }
+
+   .site-main .about-area .about-title .paragraph > p{
+       padding: .2rem 0;
+       font-size: 15px;
+   }
+
+
+   .site-main .services-area .services-title{
+       padding: 0.5rem 8rem;
+       padding-left: 14.5%;
+       padding-bottom: 1.5%;
+
+   }
+
+
+   .site-main .services-area .services-title h1::after{
+     content: " ";
+     height: 2px;
+     width: 10vw;
+     background: black;
+     display: inline-block;
+     margin-right: 5%;
+     transform: translateY(-10px)translateX(+5px);
+   }
+
+   .site-main .services-area .services-title h1::before{
+     content: " ";
+     height: 2px;
+     width: 10vw;
+     background: black;
+     display: inline-block;
+     margin-right: 14%;
+     transform: translateY(-10px) translateX(47px);
+
+   }
+
+
+
+
+
+
+
+   .site-main .project-area .project-title{
+     padding-top: 8%;
+     padding-left:5.5%;
+   }
+   .site-main .project-area .project-title h1::after{
+     content: " ";
+     height: 2px;
+     width: 10vw;
+     background: black;
+     display: inline-block;
+     margin-right: 3.5%;
+     transform: translateY(-10px)translateX(+1px);
+   }
+
+   .site-main .project-area .project-title h1::before{
+     content: " ";
+     height: 2px;
+     width: 10vw;
+     background: black;
+     display: inline-block;
+     margin-right: 8%;
+     transform: translateY(-10px) translateX(+50px);
+   }
+
+   .site-main .first-area{
+       padding: 1rem 2rem;
+   }
+
+   .site-main .first-area .row{
+     padding-left: 27.5%;
+
+   }
+
+   .site-main .first-area .first-title h2 > span{
+       display: block;
+       font-family: 'Anton', sans-serif;
+       letter-spacing: 18px;
+       font-size: 25px;
+   }
+
+   .site-main .first-area .first-title .paragraph > p{
+       padding: .4rem 0;
+       font-size: 18.4px;
+   }
+
+   .site-main .first-area .row .first-image{
+     padding-top: 3%;
+     width: 78%;
+   }
+
+
+
+
+
+   .site-main .secondary-area{
+       padding: .1rem 2.5rem;
+   }
+
+   .site-main .secondary-area .row{
+
+     padding-left: 27.5%;
+     padding-top: 1%;
+
+   }
+
+   .site-main .secondary-area .secondary-title h2 > span{
+       display: block;
+       font-family: 'Anton', sans-serif;
+       letter-spacing: 15px;
+       font-size: 24px;
+   }
+
+   .site-main .secondary-area .secondary-title .paragraph > p{
+       padding: .4rem 0;
+       font-size: 18.4px;
+   }
+   .site-main .secondary-area .row .secondary-image{
+     width: 85%;
+     padding-right: 15%;
+     position: static;
+
+   }
+
+
+
+   /*    third   */
+   .site-main .third-area{
+       padding: 0.5rem 3rem;
+   }
+
+   .site-main .third-area .row{
+
+     padding-left: 27.5%;
+     padding-top: 1.5%;
+
+   }
+
+   .site-main .third-area .third-title h2 > span{
+       display: block;
+       font-family: 'Anton', sans-serif;
+       letter-spacing: 18px;
+       font-size: 24px;
+   }
+
+   .site-main .third-area .third-title .paragraph > p{
+       padding: .4rem 0;
+       font-size: 18.4px;
+   }
+   .site-main .third-area .row .third-image{
+     width: 105%;
+     position:static;
+     padding-right: 20%;
+
+   }
+
+
+
+   /*    third   */
+
+
+   /*    forth  */
+
+   .site-main .forth-area{
+       padding: 0.5rem 2rem;
+   }
+
+   .site-main .forth-area .row{
+
+     padding-left: 27.5%;
+     padding-top: 3%;
+
+   }
+   .site-main .forth-area .row .forth-image{
+     padding-top: 5%;
+     width: 65%;
+   }
+
+   .site-main .forth-area .forth-title h2 > span{
+       display: block;
+       font-family: 'Anton', sans-serif;
+       letter-spacing: 18px;
+       font-size: 24px;
+   }
+
+   .site-main .forth-area .forth-title .paragraph > p{
+       padding: .4rem 0;
+       font-size: 18.4px;
+   }
+
+
+
+
+
+   .site-main .blog-area .blog-title{
+       padding: 1rem 8rem;
+       padding-left: 22%;
+
+   }
+
+   .site-main .blog-area .blog-title h1::after{
+     content: " ";
+     height: 2px;
+     width: 10vw;
+     background: black;
+     display: inline-block;
+     margin-right: 5%;
+     transform: translateY(-10px)translateX(+1px);
+   }
+   .site-main .blog-area .blog-title h1::before{
+     content: " ";
+     height: 2px;
+     width: 10vw;
+     background: black;
+     display: inline-block;
+     margin-right: 8%;
+     transform: translateY(-10px) translateX(+30px);
+
+   }
+
+
+
+
+
+
+   .section-1 {
+     padding: 3vmin 0vmin;
+   }
+
+   .section-1 .row .col-md-6 .pray img {
+     opacity: 0.8;
+     width: 75%;
+     position: static;
+     border-radius: 0.2em;
+   }
+
+   .section-1 .row .col-md-6:last-child {
+     position: relative;
+   }
+
+   .section-1 .row .col-md-6 .panel {
+     position: static;
+     background: white;
+     border-radius: 3px;
+     text-align: left;
+     padding: 2vmin 1vmin 4vmin 4vmin;
+     box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+     font-family: var(--Rubik);
+     z-index: 1;
+   }
+
+   .section-1 .row .col-md-4 .panel h1 {
+     font-weight: bold;
+     padding: 0.3em 0;
+     font-size: 1em;
+   }
+
+   .section-1 .row .col-md-4 .panel p {
+     font-size: 0.6em;
+     color: rgba(0, 0, 0, 0.5);
+   }
+
+
+   .gfg {
+     width: 100%;
+   }
+   .first-txt {
+       font-size: 55px;
+       color: white;
+       font-family: 'Sora', sans-serif;
+       position: absolute;
+       top: 28.5%;
+       left: 25%;
+}
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 420px){
+    .header_area .main-menu .navbar,
+    .site-main .services-area
+    {
+        padding: 4%;
+        margin: 0%;
+    }
+
+
+    .header_area .main-menu .navbar .navbar-brand{
+      display: none;
+    }
+
+
+    .site-main{
+      width: 550px;
+    }
+
+    .site-main .site-banner .site-title h1{
+          position: static;
+          font-size:34px;
+          padding-right: 14%;
+
+
+        }
+        .site-main .site-banner .site-title h3{
+          position: static;
+          padding-top: 25%;
+          font-size: 32px;
+          padding-right: 18%;
+        }
+
+        .site-main .site-banner .banner {
+          position: static;
+          width: 100%;
+          padding: 0;
+        }
+
+        .site-main .site-banner .site-button{
+          position: static;
+          padding-left: 308px;
+
+        }
+
+
+
+    .about-area .about-title{
+      position: static;
+    }
+
+
+    .site-main .about-area .row .about-image{
+      display: none;
+    }
+
+    .site-main .about-area .row{
+      padding-left: 38px;
+    }
+
+
+    .site-main .about-area .about-title .paragraph > p{
+        padding: .2rem 0;
+        font-size: 18.2px;
+    }
+
+
+
+  .site-main .services-area .services-title{
+      padding:0;
+  }
+  .site-main .services-area .services-title h1::before{
+       content: " ";
+       height: 2px;
+       width: 10vw;
+       background: black;
+       display: inline-block;
+       margin-right:10%;
+       transform: translateY(-10px) translateX(47px);
+
+     }
+
+
+
+   .site-main > .services-area .services{
+       margin-left: 5%;
+       margin-right: 6%;
+       background: #f6f5f5  ;
+       padding-left: 2%;
+       padding: 2rem 3;
+       width: 16rem;
+       margin: 2rem 6.8rem;
+       transition: box-shadow .8s ease;
+   }
+
+   .site-main .project-area .project-title{
+     padding-left: 0.5%;
+   }
+
+   .site-main .project-area .project-title h1::before{
+    content: " ";
+    height: 2px;
+    width: 9.5vw;
+    background: black;
+    display: inline-block;
+    margin-right: 10%;
+    transform: translateY(-10px) translateX(+50px);
+  }
+
+
+
+
+  .site-main .first-area{
+       padding: 1rem 2rem;
+   }
+
+   .site-main .first-area .row{
+     padding-left: 22%;
+
+   }
+
+   .site-main .first-area .first-title h2 > span{
+       display: block;
+       font-family: 'Anton', sans-serif;
+       letter-spacing: 16px;
+       font-size: 24px;
+   }
+
+   .site-main .first-area .first-title .paragraph > p{
+       padding: .4rem 0;
+       font-size: 18px;
+       width: 120%;
+   }
+
+   .site-main .first-area .row .first-image{
+     padding-top: 5%;
+     position: static;
+     padding-right:2%;
+     width: 90%;
+   }
+
+       .site-main .secondary-area{
+           padding: .1rem 2.5rem;
+       }
+
+       .site-main .secondary-area .row{
+
+         padding-left: 22%;
+         padding-top: 1%;
+
+       }
+
+       .site-main .secondary-area .secondary-title h2 > span{
+           display: block;
+           font-family: 'Anton', sans-serif;
+           letter-spacing: 10px;
+           font-size: 23px;
+       }
+
+       .site-main .secondary-area .secondary-title .paragraph > p{
+           padding: .4rem 0;
+           font-size: 18px;
+           width: 120%;
+       }
+       .site-main .secondary-area .row .secondary-image{
+         width: 115%;
+         padding-right: 25%;
+         position: static;
+       }
+
+
+
+       /*    third   */
+       .site-main .third-area{
+           padding: 0.5rem 3rem;
+       }
+
+       .site-main .third-area .row{
+
+         padding-left: 22%;
+         padding-top: 1.5%;
+
+       }
+
+       .site-main .third-area .third-title h2 > span{
+           display: block;
+           font-family: 'Anton', sans-serif;
+           letter-spacing: 16px;
+           font-size: 24px;
+       }
+
+       .site-main .third-area .third-title .paragraph > p{
+           padding: .4rem 0;
+           font-size: 18px;
+           width: 120%;
+       }
+       .site-main .third-area .row .third-image{
+         width: 115%;
+         padding-left: 4%;
+         position:static;
+
+       }
+
+
+
+       /*    third   */
+
+
+       /*    forth  */
+
+       .site-main .forth-area{
+           padding: 0.5rem 2rem;
+       }
+
+       .site-main .forth-area .row{
+
+         padding-left: 22%;
+         padding-top: 3%;
+
+       }
+       .site-main .forth-area .row .forth-image{
+         padding-top: 5%;
+         position: static;
+         padding-right: 4%;
+         width: 80%
+     }
+
+       .site-main .forth-area .forth-title h2 > span{
+           display: block;
+           font-family: 'Anton', sans-serif;
+           letter-spacing: 16px;
+           font-size: 24px;
+       }
+
+       .site-main .forth-area .forth-title .paragraph > p{
+           padding: .4rem 0;
+           font-size: 18px;
+           width: 120%
+       }
+       .site-main .blog-area .blog-title{
+          padding: 0;
+          padding-left: 2%;
+            
+
+      }
+
+
+        .site-main > .blog-area .services{
+            margin-left: 5%;
+            margin-right: 5%;
+            background: #f6f6f6  ;
+            padding: 2rem .5rem;
+            width: 17rem;
+            height: 80%;
+            margin: 2rem 4.5rem;
+            transition: box-shadow .6s ease;
+        }
+
+
+           .section-1 {
+             padding: 2vmin 0vmin;
+           }
+
+           .section-1 .row .col-md-6 .pray img {
+             opacity: 0.8;
+             width: 80%;
+             border-radius: 0.3em;
+           }
+
+           .section-1 .row .col-md-6:last-child {
+             position: static;
+           }
+
+
+           .section-1 .row .col-md-6 .panel {
+             position: static;
+             background: white;
+             border-radius: 2px;
+             text-align: left;
+             padding: 2vmin 1vmin 4vmin 4vmin;
+             box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+             font-family: var(--Rubik);
+             z-index: 1;
+           }
+
+           .section-1 .row .col-md-4 .panel h1 {
+             font-weight: bold;
+             padding: 0.3em 0;
+             font-size: 1em;
+           }
+
+           .section-1 .row .col-md-4 .panel p {
+             font-size: 2em;
+             color: rgba(0, 0, 0, 0.5);
+           }
+
+
+           .first-txt {
+                      font-size: 44px;
+                      color: white;
+                      font-family: 'Sora', sans-serif;
+                      position: absolute;
+                      top: 28.5%;
+                      left: 24%;
+            }
+
+    }
