@@ -1,540 +1,1890 @@
 @media (max-width: 1600px){
+  .site-main .site-banner .site-title h1{
+    position: static;
+    font-size:42px;
+  }
+  .site-main .site-banner .site-title h3{
+    position: static;
+    font-size: 34px;
+    padding-left: 14%;
+  }
 
-  .container .row {
+  .header_area .main-menu .navbar,
+  .site-main .services-area
+  {
+      padding: 1.5%;
+  }
+  .site-main .about-area .about-title h2 > span{
+      display: block;
+      letter-spacing: 15px;
+      font-size: 34px;
+  }
+
+  .site-main .about-area .about-title .paragraph > p{
+      padding: .2rem 0;
+      font-size: 22px;
+  }
+  .site-main .services-area .services-title{
+
+      padding-top: 5%;
+  }
+  .site-main .project-area .project-title{
+    padding-top: 8%;
+  }
+  .site-main .first-area .first-title h2 > span{
+      display: block;
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 18px;
+      font-size: 28px;
+  }
+
+  .site-main .first-area .first-title .paragraph > p{
+      padding: .4rem 0;
+      font-size: 20px;
+  }
+
+  .site-main .first-area .row .first-image{
+    padding-top: 3%;
+  }
+
+
+
+  .site-main .secondary-area .secondary-title h2 > span{
+      display: block;
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 15px;
+      font-size: 28px;
+  }
+
+  .site-main .secondary-area .secondary-title .paragraph > p{
+      padding: .4rem 0;
+      font-size: 20px;
+  }
+  .site-main .secondary-area .row .secondary-image{
+    width: 75%;
+    padding-bottom: 8%;
+  }
+
+
+  .site-main .third-area .third-title h2 > span{
+      display: block;
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 18px;
+      font-size: 28px;
+  }
+
+  .site-main .third-area .third-title .paragraph > p{
+      padding: .4rem 0;
+      font-size: 20px;
+  }
+  .site-main .third-area .row .third-image{
+    width: 80%;
+    padding-bottom: 10%;
+
+  }
+
+  .site-main .forth-area .row .forth-image{
+    padding-top: 5%;
+  }
+
+  .site-main .forth-area .forth-title h2 > span{
+      display: block;
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 18px;
+      font-size: 28px;
+  }
+
+  .site-main .forth-area .forth-title .paragraph > p{
+      padding: .4rem 0;
+      font-size: 20px;
+  }
+  .site-main .blog-area .blog-title{
+      padding-top: 9%;
+  }
+
+  .section-1 .row .col-md-6 .pray img {
+    opacity: 0.8;
+    width: 100%;
+    border-radius: 0.2em;
+  }
+
+  .section-1 .row .col-md-6:last-child {
+    position: relative;
+  }
+
+  .section-1 .row .col-md-6 .panel {
     position: absolute;
-    left: 34%;
-    top: 75%;
-    width: 310px;
+    top: 3vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 5vmin 4vmin 7vmin 7vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
   }
 
-
-
-
-  .site-main .about-area .row .about-image{
-      padding-top: 5%;
-      padding-left: 33%;
+  .section-1 .row .col-md-4 .panel h1 {
+    font-weight: bold;
+    padding: 0.3em 0;
+    font-size: 2em;
   }
 
-
-  .input_wrapper {
-    width: 510px;
-    height: 52px;
-    position: relative;
-    left: 24.5%;
-  }
-
-  .input_user {
-    width: 130%;
-    height: 110%;
-    background-color: #f6f5f1;
-    border: none;
-    box-sizing: border-box;
-  }
-
-
-  .btn_submit {
-    position: relative;
-    left: 59%;
-    top: 55%;
-  }
-
-
-}
-
-
-
-@media (max-width: 1400px){
-
-
-  .site-main .about-area .row .about-image{
-      padding-top: 5%;
-      padding-left: 34.5%;
-  }
-
-
-  .input_wrapper {
-    width: 510px;
-    height: 52px;
-    position: relative;
-    left: 23.5%;
-  }
-
-  .input_user {
-    width: 130%;
-    height: 110%;
-    background-color: #f6f5f1;
-    border: none;
-    box-sizing: border-box;
-  }
-
-
-  .btn_submit {
-    position: relative;
-    left: 59%;
-    top: 55%;
-  }
-
-
-  .container .row {
-    position: absolute;
-    left: 31%;
-    top: 72%;
-    width: 300px;
-  }
-
-}
-
-
-
-@media (max-width: 1254px){
-
-
-    .container .row {
-      position: absolute;
-      left: 31%;
-      top: 60%;
-      width: 300px;
-    }
-
-
-
-  .site-main .about-area .row .about-image{
-      padding-top: 5%;
-      padding-left: 440px;
-  }
-
-
-
-  .input_wrapper {
-    width: 480px;
-    height: 50px;
-    position: relative;
-    left: 24%;
-  }
-
-  .input_user {
-    width: 130%;
-    height: 110%;
-    background-color: #f6f5f1;
-    border: none;
-    box-sizing: border-box;
-  }
-
-
-  .btn_submit {
-    position: relative;
-    left: 59%;
-    top: 55%;
-  }
-
-
-}
-
-
-
-
-
-@media (max-width: 1060px){
-
-
-    .header_area .main-menu .navbar,
-       .header_area .main-menu .navbar .navbar-brand{
-         padding: 2%;
-          margin: 0%;
-       }
-
-  .header_area .main-menu .image{
-    width: 4%;
-}
-
-  .site-main .about-area .row .about-image{
-      padding-top: 12%;
-      padding-left: 360px;
-  }
-
-
-
-  .input_wrapper {
-    width: 450px;
-    height: 46px;
-    position: relative;
-    left: 22%;
-  }
-
-  .input_user {
-    width: 130%;
-    height: 110%;
-    background-color: #f6f5f1;
-    border: none;
-    box-sizing: border-box;
-  }
-
-
-  .btn_submit {
-    position: relative;
-    left: 56%;
-    top: 55%;
+  .section-1 .row .col-md-4 .panel p {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.5);
   }
 
 
   .gfg {
     width: 100%;
-    position: relative;
-    padding-top: 8%;
   }
-
   .first-txt {
-    font-size: 68px;
-    color: white;
-    font-family: 'Sora', sans-serif;
-    position: absolute;
-    top: 28.5%;
-    left: 28%;
-  }
-
-  .site-main .a-area .row .about-image {
-    width: 80%;
-    position: relative;
-    right: 2%;
-    top: 15%;
-
-  }
-  .container .row {
-    position: absolute;
-    left: 31%;
-    top: 65%;
-    width: 300px;
-  }
-}
-
-
-
-@media (max-width: 992px){
-
-
-  .site-main .about-area .row .about-image{
-      padding-top: 12%;
-      padding-left: 350px;
-  }
-
-
-
-  .input_wrapper {
-    width: 450px;
-    height: 52px;
-    position: relative;
-    left: 20.5%;
-  }
-
-  .input_user {
-    width: 130%;
-    height: 110%;
-    background-color: #f6f5f1;
-    border: none;
-    box-sizing: border-box;
-  }
-
-
-  .btn_submit {
-    position: relative;
-    left: 55%;
-    top: 55%;
-  }
-
-  .header_area .main-menu .navbar,
-     .header_area .main-menu .navbar .navbar-brand{
-       padding: 2%;
-        margin: 0%;
-     }
-
-.header_area .main-menu .image{
-  width: 5%;
-
-}
-
-
-.gfg {
-  width: 100%;
-  position: relative;
-  padding-top: 8%;
-}
-
-.first-txt {
-  font-size: 60px;
-  color: white;
-  font-family: 'Sora', sans-serif;
-  position: absolute;
-  top: 28.5%;
-  left: 29%;
-}
-
-.container .row {
-  position: absolute;
-  left: 31%;
-  top: 56%;
-  width: 294px;
-}
-
-
-
-}
-
-
-@media (max-width: 780px){
-
-
-  .please{
-    width: 55%;
-  }
-  .site-main .about-area .row .about-image{
-      padding-top: 12%;
-      padding-left:252px;
-  }
-
-
-
-  .input_wrapper {
-    width: 330px;
-    height: 50px;
-    position: relative;
-    left: 22.5%;
-  }
-
-  .input_user {
-    width: 130%;
-    height: 110%;
-    background-color: #f6f5f1;
-    border: none;
-    box-sizing: border-box;
-  }
-
-
-  .btn_submit {
-    position: relative;
-    left: 55%;
-    top: 55%;
-  }
-
-
-
-  .first-txt {
-    font-size: 56px;
-    color: white;
-    font-family: 'Sora', sans-serif;
-    position: absolute;
-    top: 28.5%;
-    left: 26%;
-  }
-
-  .site-main .a-area .row .about-image {
-    width: 92%;
-    position: relative;
-
-
-}
-
-
-@media (max-width: 590px) {
-
-
-    .site-main .about-area .row .about-image{
-        padding-top: 16%;
-        padding-left:224px;
-    }
-
-
-
-    .input_wrapper {
-      width: 300px;
-      height: 50px;
-      position: relative;
-      left: 19%;
-    }
-
-    .input_user {
-      width: 130%;
-      height: 110%;
-      background-color: #f6f5f1;
-      border: none;
-      box-sizing: border-box;
-    }
-
-
-    .btn_submit {
-      position: relative;
-      left: 50%;
-      top: 55%;
-    }
-
-    .gfg {
-      width: 100%;
-      position: relative;
-      padding-top: 8%;
-    }
-
-    .first-txt {
-      font-size: 42px;
+      font-size: 68px;
       color: white;
       font-family: 'Sora', sans-serif;
       position: absolute;
       top: 28.5%;
-      left: 26%;
+      left: 36%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .site-main .site-banner .site-title h1{
+    position: static;
+    font-size:40px;
+    padding-left: 12%;
+  }
+
+
+
+}
+@media (max-width: 1300px) {
+  .site-main .first-area .row .first-image{
+    width: 90%;
+    position: absolute;
+    right: 30%;
+    top: 12%;
+    }
+
+    .site-main .secondary-area .row .secondary-image{
+      width: 100%;
+      position: absolute;
+      right: 24%;
+      top: 2.5%;
+
+    }
+
+    .site-main .third-area .row .third-image{
+      width: 100%;
+      position: absolute;
+      right: 20%;
+      top: 2.5%;
+
+    }
+
+    .site-main .forth-area .row .forth-image{
+      width: 90%;
+      position: absolute;
+      right: 30%;
+      top: 12%;
     }
 
 
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+    .site-main .site-banner .site-title h1{
+      position: static;
+      font-size:32px;
+    }
+    .site-main .site-banner .site-title h3{
+      position: static;
+      font-size: 25px;
+    }
+    .site-main .site-banner .banner {
+      position: static;
+    }
+
+    .site-main .site-banner .site-button{
+      position: static;
+    }
+
+
+
+
+
+
+    .about-area .about-title{
+      position: static;
+    }
+
+
+    .site-main .about-area .row .about-image{
+      width: 100%;
+      position: absolute;
+      right: 30%;
+      top: 10.5%;
+    }
+
+    .site-main .about-area .about-title h2 > span{
+        display: block;
+        letter-spacing: 14px;
+        font-size: 26px;
+    }
+
+    .site-main .about-area .about-title .paragraph > p{
+        padding: .2rem 0;
+        font-size: 15px;
+    }
+
+
+    .site-main .services-area .services-title{
+        padding: 0.5rem 8rem;
+        padding-left: 13.5%;
+        padding-bottom: 1.5%;
+    }
+
+
+    .site-main .services-area .services-title h1::after{
+      content: " ";
+      height: 2px;
+      width: 10vw;
+      background: black;
+      display: inline-block;
+      margin-right: 5%;
+      transform: translateY(-10px)translateX(+5px);
+    }
+
+    .site-main .services-area .services-title h1::before{
+      content: " ";
+      height: 2px;
+      width: 10vw;
+      background: black;
+      display: inline-block;
+      margin-right: 8%;
+      transform: translateY(-10px) translateX(47px);
+
+    }
+
+
+
+
+
+
+
+    .site-main .project-area .project-title{
+      padding-top: 8%;
+      padding-left:5.5%;
+    }
+    .site-main .project-area .project-title h1::after{
+      content: " ";
+      height: 2px;
+      width: 10vw;
+      background: black;
+      display: inline-block;
+      margin-right: 3.5%;
+      transform: translateY(-10px)translateX(+1px);
+    }
+
+    .site-main .project-area .project-title h1::before{
+      content: " ";
+      height: 2px;
+      width: 10vw;
+      background: black;
+      display: inline-block;
+      margin-right: 5%;
+      transform: translateY(-10px) translateX(+50px);
+    }
+
+    .site-main .first-area{
+        padding: 1rem 2rem;
+    }
+
+    .site-main .first-area .row{
+      padding-left: 20%;
+
+    }
+
+    .site-main .first-area .first-title h2 > span{
+        display: block;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 18px;
+        font-size: 22px;
+    }
+
+    .site-main .first-area .first-title .paragraph > p{
+        padding: .4rem 0;
+        font-size: 16px;
+    }
+
+    .site-main .first-area .row .first-image{
+      padding-top: 5%;
+    }
+
+
+
+
+
+    .site-main .secondary-area{
+        padding: .1rem 2.5rem;
+    }
+
+    .site-main .secondary-area .row{
+
+      padding-left: 20%;
+      padding-top: 1%;
+
+    }
+
+    .site-main .secondary-area .secondary-title h2 > span{
+        display: block;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 15px;
+        font-size: 21px;
+    }
+
+    .site-main .secondary-area .secondary-title .paragraph > p{
+        padding: .4rem 0;
+        font-size: 16px;
+    }
+    .site-main .secondary-area .row .secondary-image{
+      width: 105%;
+      position: absolute;
+      right: 17%;
+      top: 8%;
+
+    }
+
+
+
+    /*    third   */
+    .site-main .third-area{
+        padding: 0.5rem 3rem;
+    }
+
+    .site-main .third-area .row{
+
+      padding-left: 20%;
+      padding-top: 1.5%;
+
+    }
+
+    .site-main .third-area .third-title h2 > span{
+        display: block;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 18px;
+        font-size: 22px;
+    }
+
+    .site-main .third-area .third-title .paragraph > p{
+        padding: .4rem 0;
+        font-size: 16px;
+    }
+    .site-main .third-area .row .third-image{
+      width: 105%;
+      position: absolute;
+      right: 17%;
+      top: 8%;
+
+    }
+
+
+
+    /*    third   */
+
+
+    /*    forth  */
+
+    .site-main .forth-area{
+        padding: 0.5rem 2rem;
+    }
+
+    .site-main .forth-area .row{
+
+      padding-left: 20%;
+      padding-top: 3%;
+
+    }
+    .site-main .forth-area .row .forth-image{
+      padding-top: 5%;
+    }
+
+    .site-main .forth-area .forth-title h2 > span{
+        display: block;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 18px;
+        font-size: 22px;
+    }
+
+    .site-main .forth-area .forth-title .paragraph > p{
+        padding: .4rem 0;
+        font-size: 16px;
+    }
+
+
+
+
+
+    .site-main .blog-area .blog-title{
+        padding: 1rem 12rem;
+        padding-left: 29%;
+    }
+
+    .site-main .blog-area .blog-title h1::after{
+      content: " ";
+      height: 2px;
+      width: 10vw;
+      background: black;
+      display: inline-block;
+      margin-right: 5%;
+      transform: translateY(-10px)translateX(+1px);
+    }
+    .site-main .blog-area .blog-title h1::before{
+      content: " ";
+      height: 2px;
+      width: 10vw;
+      background: black;
+      display: inline-block;
+      margin-right: 5%;
+      transform: translateY(-10px) translateX(+30px);
+
+    }
+
+
+
+
+
+
+    .section-1 {
+      padding: 3vmin 0vmin;
+    }
+
+    .section-1 .row .col-md-6 .pray img {
+      opacity: 0.8;
+      width: 80%;
+      border-radius: 0.2em;
+    }
+
+    .section-1 .row .col-md-6:last-child {
+      position: relative;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+      position: absolute;
+      top: 3vmin;
+      left: -18vmin;
+      background: white;
+      border-radius: 3px;
+      text-align: left;
+      padding: 2vmin 1vmin 4vmin 4vmin;
+      box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+      font-family: var(--Rubik);
+      z-index: 1;
+    }
+
+    .section-1 .row .col-md-4 .panel h1 {
+      font-weight: bold;
+      padding: 0.3em 0;
+      font-size: 1em;
+    }
+
+    .section-1 .row .col-md-4 .panel p {
+      font-size: 0.6em;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+
+    .gfg {
+      width: 100%;
+    }
+    .first-txt {
+        font-size: 68px;
+        color: white;
+        font-family: 'Sora', sans-serif;
+        position: absolute;
+        top: 28.5%;
+        left: 30%;
+}
+
+
+
+
+
+@media (max-width: 991px) {
+
+
+  .site-main .site-banner .site-title h1{
+
+    padding-left: 5%;
+    font-size:30px;
+  }
+  .site-main .site-banner .site-title h3{
+    padding-left: 10%;
+    padding-top: 45%;
+    font-size: 24px;
+  }
+  .site-main .site-banner .banner{
+    padding-right: 2%;
+    padding-top: 3.5%;
+    width: 95%;
+  }
+
+  .site-main .site-banner .site-button{
+    position: static;
+    padding-left: 60%;
+
+
+  }
+
+  .gfg{
+    width: 100%;
+  }
+
+
+
+  .site-main .about-area .row .about-image{
+    width: 110%;
+    position: absolute;
+    right: 35%;
+    top: 15%;
+
+  }
+
+  .site-main .about-area .about-title h2 > span{
+      display: block;
+      letter-spacing: 12px;
+      font-size: 24px;
+  }
+
+  .site-main .about-area .about-title .paragraph > p{
+      padding: .4rem 0rem;
+      font-size: 15px;
+  }
+
+
+
+
+
+
+  .site-main .services-area .services-title{
+      padding: 0.5rem 8rem;
+      text-align: center;
+      padding-bottom: 1.5%;
+}
+
+
+  .site-main .services-area .services-title h1::after{
+    content: " ";
+    height: 2px;
+    width: 9.5vw;
+    background: black;
+    display: inline-block;
+    margin-right: 5%;
+    transform: translateY(-10px)translateX(+5px);
+  }
+
+  .site-main .services-area .services-title h1::before{
+    content: " ";
+    height: 2px;
+    width: 9.5vw;
+    background: black;
+    display: inline-block;
+    margin-right: 8%;
+    transform: translateY(-10px) translateX(32px);
+
+  }
+
+
+  .site-main > .services-area .services{
+      margin-left: 4%;
+      margin-right: 4%;
+      background: #f6f5f5  ;
+      padding-left: 2%;
+      padding: 2rem 3;
+      width: 13rem;
+      margin: 2rem 3rem;
+      transition: box-shadow .8s ease;
+  }
+
+
+
+
+  .site-main .project-area .project-title{
+    padding-top: 8%;
+    text-align: center;
+  }
+  .site-main .project-area .project-title h1::after{
+    content: " ";
+    height: 2px;
+    width: 9.5vw;
+    background: black;
+    display: inline-block;
+    margin-right: 3%;
+    transform: translateY(-10px)translateX(+1px);
+  }
+
+  .site-main .project-area .project-title h1::before{
+    content: " ";
+    height: 2px;
+    width: 9.5vw;
+    background: black;
+    display: inline-block;
+    margin-right: 7%;
+    transform: translateY(-10px) translateX(+50px);
+  }
+
+  .site-main .first-area{
+      padding: 1rem 2rem;
+  }
+
+  .site-main .first-area .row{
+    padding-left: 26%;
+
+  }
+
+  .site-main .first-area .first-title h2 > span{
+      display: block;
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 16px;
+      font-size: 22px;
+  }
+
+  .site-main .first-area .first-title .paragraph > p{
+      padding: .4rem 0;
+      font-size: 18px;
+  }
+
+  .site-main .first-area .row .first-image{
+    padding-top: 5%;
+    position: static;
+    padding-right:2%;
+    width: 70%;
+  }
+
+      .site-main .secondary-area{
+          padding: .1rem 2.5rem;
+      }
+
+      .site-main .secondary-area .row{
+
+        padding-left: 26%;
+        padding-top: 1%;
+
+      }
+
+      .site-main .secondary-area .secondary-title h2 > span{
+          display: block;
+          font-family: 'Anton', sans-serif;
+          letter-spacing: 16px;
+          font-size: 22px;
+      }
+
+      .site-main .secondary-area .secondary-title .paragraph > p{
+          padding: .4rem 0;
+          font-size: 18px;
+      }
+      .site-main .secondary-area .row .secondary-image{
+        width: 70%;
+        padding-left: 5%;
+        position: static;
+      }
+
+
+
+      /*    third   */
+      .site-main .third-area{
+          padding: 0.5rem 3rem;
+      }
+
+      .site-main .third-area .row{
+
+        padding-left: 26%;
+        padding-top: 1.5%;
+
+      }
+
+      .site-main .third-area .third-title h2 > span{
+          display: block;
+          font-family: 'Anton', sans-serif;
+          letter-spacing: 16px;
+          font-size: 22px;
+      }
+
+      .site-main .third-area .third-title .paragraph > p{
+          padding: .4rem 0;
+          font-size: 18px;
+      }
+      .site-main .third-area .row .third-image{
+        width: 73%;
+        padding-left: 4%;
+        position:static;
+
+      }
+
+
+
+      /*    third   */
+
+
+      /*    forth  */
+
+      .site-main .forth-area{
+          padding: 0.5rem 2rem;
+      }
+
+      .site-main .forth-area .row{
+
+        padding-left: 26%;
+        padding-top: 3%;
+
+      }
+      .site-main .forth-area .row .forth-image{
+        padding-top: 5%;
+        position: static;
+        padding-right: 4%;
+        width: 71%
+    }
+
+      .site-main .forth-area .forth-title h2 > span{
+          display: block;
+          font-family: 'Anton', sans-serif;
+          letter-spacing: 16px;
+          font-size: 22px;
+      }
+
+      .site-main .forth-area .forth-title .paragraph > p{
+          padding: .4rem 0;
+          font-size: 18px;
+      }
+
+
+
+
+
+      .site-main .blog-area .blog-title{
+          padding: 1rem 12rem;
+          padding-right: 25%;
+          text-align: center;
+      }
+
+      .site-main .blog-area .blog-title h1::after{
+        content: " ";
+        height: 2px;
+        width: 9.5vw;
+        background: black;
+        display: inline-block;
+        margin-right: 5%;
+        transform: translateY(-10px)translateX(+1px);
+      }
+      .site-main .blog-area .blog-title h1::before{
+        content: " ";
+        height: 2px;
+        width: 9.5vw;
+        background: black;
+        display: inline-block;
+        margin-right: 4%;
+        transform: translateY(-10px) translateX(+12px);
+
+      }
+
+      .site-main > .blog-area .services{
+          margin-left: 5%;
+          margin-right: 5%;
+          background: #f6f6f6  ;
+          padding: 2rem .5rem;
+          width: 12rem;
+          height: 78%;
+          margin: 2rem 3.5rem;
+          transition: box-shadow .6s ease;
+      }
+
+      .site-main > .blog-area .services:hover{
+          box-shadow: var(--box-shadow);
+      }
+
+
+
+
+
+
+
+
+      .section-1 {
+        padding: 3vmin 0vmin;
+      }
+
+      .section-1 .row .col-md-6 .pray img {
+        opacity: 0.8;
+        width: 115%;
+        border-radius: 0.2em;
+      }
+
+      .section-1 .row .col-md-6:last-child {
+        position: relative;
+      }
+
+      .section-1 .row .col-md-6 .panel {
+        position: absolute;
+        top: 3vmin;
+        left: -18vmin;
+        background: white;
+        border-radius: 3px;
+        text-align: left;
+        padding: 2vmin 1vmin 4vmin 4vmin;
+        box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+        font-family: var(--Rubik);
+        z-index: 1;
+      }
+
+      .section-1 .row .col-md-4 .panel h1 {
+        font-weight: bold;
+        padding: 0.3em 0;
+        font-size: 1em;
+      }
+
+      .section-1 .row .col-md-4 .panel p {
+        font-size: 0.6em;
+        color: rgba(0, 0, 0, 0.5);
+      }
+
+      .first-txt {
+          font-size: 72px;
+          color: white;
+          font-family: 'Sora', sans-serif;
+          position: absolute;
+          top: 28.5%;
+          left: 27%;
+
+      }
+
+
+
+}
+
+@media  (max-width: 770px) {
+  .header_area .main-menu .navbar{
+     padding: 2.5%;
+        margin: 0%;
+   }
+   .site-main .site-banner{
+     padding-top: 4%;
+   }
+
+   .first-txt {
+       font-size: 65px;
+       color: white;
+       font-family: 'Sora', sans-serif;
+       position: absolute;
+       top: 28.5%;
+       left: 23.2%;
+
+   }
+
+
+
+
+ @media (max-width: 767px) {
+
+   .site-main .site-banner .site-title h1{
+
+     padding-left: 2.5%;
+     font-size:29px;
+   }
+   .site-main .site-banner .site-title h3{
+     padding-left: 11%;
+     padding-top: 52%;
+     font-size: 23px;
+   }
+   .site-main .site-banner .banner{
+     padding-right: 2%;
+     padding-top: 10%;
+     width: 100%;
+     position: static;
+   }
+
+   .site-main .site-banner .site-button{
+     position: static;
+     padding-left: 60%;
+
+
+   }
+
+   .gfg{
+     width: 100%;
+   }
+
+
+
+   .site-main .about-area .row .about-image{
+     width: 110%;
+    padding-left: 5%;
+
+   }
+
+   .site-main .about-area .about-title h2 > span{
+       display: block;
+       letter-spacing: 12px;
+       font-size: 23px;
+   }
+
+   .site-main .about-area .about-title .paragraph > p{
+       padding: .3rem 0rem;
+       font-size: 16px;
+   }
+
+
+
+
+
+
+   .site-main .services-area .services-title{
+       padding: 0.5rem 8rem;
+       padding-left: 17.5%;
+       padding-bottom: 1.5%;
  }
 
 
+   .site-main .services-area .services-title h1::after{
+     content: " ";
+     height: 2px;
+     width: 9.5vw;
+     background: black;
+     display: inline-block;
+     margin-right: 5%;
+     transform: translateY(-10px)translateX(+5px);
+   }
+
+   .site-main .services-area .services-title h1::before{
+     content: " ";
+     height: 2px;
+     width: 9.5vw;
+     background: black;
+     display: inline-block;
+     margin-right: 8%;
+     transform: translateY(-10px) translateX(32px);
+
+   }
 
 
- @media (max-width: 450px) {
+   .site-main > .services-area .services{
+       margin-left: 5%;
+       margin-right: 6%;
+       background: #f6f5f5  ;
+       padding-left: 2%;
+       padding: 2rem 3;
+       width: 16.3rem;
+       margin: 2rem 8rem;
+       transition: box-shadow .8s ease;
+   }
+
+
+
+
+   .site-main .project-area .project-title{
+     padding-top: 8%;
+     padding-left:2.5%;
+   }
+   .site-main .project-area .project-title h1::after{
+     content: " ";
+     height: 2px;
+     width: 9.5vw;
+     background: black;
+     display: inline-block;
+     margin-right: 3%;
+     transform: translateY(-10px)translateX(+1px);
+   }
+
+   .site-main .project-area .project-title h1::before{
+     content: " ";
+     height: 2px;
+     width: 9.5vw;
+     background: black;
+     display: inline-block;
+     margin-right: 7%;
+     transform: translateY(-10px) translateX(+50px);
+   }
+
+   .site-main .first-area{
+       padding: 1rem 2rem;
+   }
+
+   .site-main .first-area .row{
+     padding-left: 26%;
+
+   }
+
+   .site-main .first-area .first-title h2 > span{
+       display: block;
+       font-family: 'Anton', sans-serif;
+       letter-spacing: 16px;
+       font-size: 20px;
+   }
+
+   .site-main .first-area .first-title .paragraph > p{
+       padding: .4rem 0;
+       font-size: 16px;
+   }
+
+   .site-main .first-area .row .first-image{
+     padding-top: 5%;
+     position: static;
+     padding-right:2%;
+     width: 70%;
+   }
+
+       .site-main .secondary-area{
+           padding: .1rem 2.5rem;
+       }
+
+       .site-main .secondary-area .row{
+
+         padding-left: 26%;
+         padding-top: 1%;
+
+       }
+
+       .site-main .secondary-area .secondary-title h2 > span{
+           display: block;
+           font-family: 'Anton', sans-serif;
+           letter-spacing: 16px;
+           font-size: 20px;
+       }
+
+       .site-main .secondary-area .secondary-title .paragraph > p{
+           padding: .4rem 0;
+           font-size: 16px;
+       }
+       .site-main .secondary-area .row .secondary-image{
+         width: 70%;
+         padding-left: 5%;
+         position: static;
+       }
+
+
+
+       /*    third   */
+       .site-main .third-area{
+           padding: 0.5rem 3rem;
+       }
+
+       .site-main .third-area .row{
+
+         padding-left: 26%;
+         padding-top: 1.5%;
+
+       }
+
+       .site-main .third-area .third-title h2 > span{
+           display: block;
+           font-family: 'Anton', sans-serif;
+           letter-spacing: 16px;
+           font-size: 20px;
+       }
+
+       .site-main .third-area .third-title .paragraph > p{
+           padding: .4rem 0;
+           font-size: 16px;
+       }
+       .site-main .third-area .row .third-image{
+         width: 73%;
+         padding-left: 4%;
+         position:static;
+
+       }
+
+
+
+       /*    third   */
+
+
+       /*    forth  */
+
+       .site-main .forth-area{
+           padding: 0.5rem 2rem;
+       }
+
+       .site-main .forth-area .row{
+
+         padding-left: 26%;
+         padding-top: 3%;
+
+       }
+       .site-main .forth-area .row .forth-image{
+         padding-top: 5%;
+         position: static;
+         padding-right: 4%;
+         width: 71%
+     }
+
+       .site-main .forth-area .forth-title h2 > span{
+           display: block;
+           font-family: 'Anton', sans-serif;
+           letter-spacing: 16px;
+           font-size: 20px;
+       }
+
+       .site-main .forth-area .forth-title .paragraph > p{
+           padding: .4rem 0;
+           font-size: 16px;
+       }
+
+
+
+
+
+       .site-main .blog-area .blog-title{
+           padding: 1rem 10rem;
+           padding-left: 26%;
+       }
+
+       .site-main .blog-area .blog-title h1::after{
+         content: " ";
+         height: 2px;
+         width: 8.7vw;
+         background: black;
+         display: inline-block;
+         margin-right: 5%;
+         transform: translateY(-10px)translateX(+1px);
+       }
+       .site-main .blog-area .blog-title h1::before{
+         content: " ";
+         height: 2px;
+         width: 8.7vw;
+         background: black;
+         display: inline-block;
+         margin-right: 4%;
+         transform: translateY(-10px) translateX(+12px);
+
+       }
+
+       .site-main > .blog-area .services{
+           margin-left: 5%;
+           margin-right: 5%;
+           background: #f6f6f6  ;
+           padding: 2rem .5rem;
+           width: 17rem;
+           height: 80%;
+           margin: 2rem 8rem;
+           transition: box-shadow .6s ease;
+       }
+
+       .site-main > .blog-area .services:hover{
+           box-shadow: var(--box-shadow);
+       }
+
+
+
+
+
+
+
+
+       .section-1 {
+         padding: 3vmin 0vmin;
+       }
+
+       .section-1 .row .col-md-6 .pray img {
+         opacity: 0.8;
+         width: 70%;
+         border-radius: 0.2em;
+       }
+
+       .section-1 .row .col-md-6:last-child {
+         position: static;
+       }
+
+
+       .section-1 .row .col-md-6 .panel {
+         position: static;
+         background: white;
+         border-radius: 3px;
+         text-align: left;
+         padding: 2.5vmin 1.5vmin 4.5vmin 4.5vmin;
+         box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+         font-family: var(--Rubik);
+         z-index: 1;
+       }
+
+       .section-1 .row .col-md-4 .panel h1 {
+         font-weight: bold;
+         padding: 0.3em 0;
+         font-size: 1em;
+       }
+
+       .section-1 .row .col-md-4 .panel p {
+         font-size: 0.6em;
+         color: rgba(0, 0, 0, 0.5);
+       }
+
+
+       .first-txt {
+           font-size: 60px;
+           color: white;
+           font-family: 'Sora', sans-serif;
+           position: absolute;
+           top: 28.5%;
+           left: 25%;
+
+       }
+
+
+
+
+
+
+ }
+ @media (max-width: 720px) {
+
+   .site-main .site-banner .site-title h1{
+     font-size:34px;
+     padding-left: 10%;
+     text-align: center;
+   }
+   .site-main .site-banner .site-title h3{
+     font-size: 28px;
+     text-align: center;
+     padding-top: 45%;
+   }
+   .site-main .site-banner .banner {
+     position: absolute;
+     left: 2%;
+     top: 1.5%;
+     width: 100%;
+   }
+
+   .site-main .site-banner .site-button{
+     padding-left: 55%;
+   }
+
+
+
+
+
+
+   .about-area .about-title{
+     position: static;
+   }
+
    .site-main .about-area .row .about-image{
-       padding-top: 20%;
-       padding-left:162px;
+     width: 100%;
+     position: absolute;
+     right: 30%;
+     top: 10.5%;
+   }
+
+   .site-main .about-area .about-title h2 > span{
+       display: block;
+       letter-spacing: 14px;
+       font-size: 26px;
+   }
+
+   .site-main .about-area .about-title .paragraph > p{
+       padding: .2rem 0;
+       font-size: 15px;
+   }
+
+
+   .site-main .services-area .services-title{
+       padding: 0.5rem 8rem;
+       padding-left: 14.5%;
+       padding-bottom: 1.5%;
+
+   }
+
+
+   .site-main .services-area .services-title h1::after{
+     content: " ";
+     height: 2px;
+     width: 10vw;
+     background: black;
+     display: inline-block;
+     margin-right: 5%;
+     transform: translateY(-10px)translateX(+5px);
+   }
+
+   .site-main .services-area .services-title h1::before{
+     content: " ";
+     height: 2px;
+     width: 10vw;
+     background: black;
+     display: inline-block;
+     margin-right: 14%;
+     transform: translateY(-10px) translateX(47px);
+
    }
 
 
 
-   .input_wrapper {
-     width: 200px;
-     height: 40px;
+
+
+
+
+   .site-main .project-area .project-title{
+     padding-top: 8%;
+     padding-left:5.5%;
+   }
+   .site-main .project-area .project-title h1::after{
+     content: " ";
+     height: 2px;
+     width: 10vw;
+     background: black;
+     display: inline-block;
+     margin-right: 3.5%;
+     transform: translateY(-10px)translateX(+1px);
+   }
+
+   .site-main .project-area .project-title h1::before{
+     content: " ";
+     height: 2px;
+     width: 10vw;
+     background: black;
+     display: inline-block;
+     margin-right: 8%;
+     transform: translateY(-10px) translateX(+50px);
+   }
+
+   .site-main .first-area{
+       padding: 1rem 2rem;
+   }
+
+   .site-main .first-area .row{
+     padding-left: 27.5%;
+
+   }
+
+   .site-main .first-area .first-title h2 > span{
+       display: block;
+       font-family: 'Anton', sans-serif;
+       letter-spacing: 18px;
+       font-size: 25px;
+   }
+
+   .site-main .first-area .first-title .paragraph > p{
+       padding: .4rem 0;
+       font-size: 18.4px;
+   }
+
+   .site-main .first-area .row .first-image{
+     padding-top: 3%;
+     width: 78%;
+   }
+
+
+
+
+
+   .site-main .secondary-area{
+       padding: .1rem 2.5rem;
+   }
+
+   .site-main .secondary-area .row{
+
+     padding-left: 27.5%;
+     padding-top: 1%;
+
+   }
+
+   .site-main .secondary-area .secondary-title h2 > span{
+       display: block;
+       font-family: 'Anton', sans-serif;
+       letter-spacing: 15px;
+       font-size: 24px;
+   }
+
+   .site-main .secondary-area .secondary-title .paragraph > p{
+       padding: .4rem 0;
+       font-size: 18.4px;
+   }
+   .site-main .secondary-area .row .secondary-image{
+     width: 85%;
+     padding-right: 15%;
+     position: static;
+
+   }
+
+
+
+   /*    third   */
+   .site-main .third-area{
+       padding: 0.5rem 3rem;
+   }
+
+   .site-main .third-area .row{
+
+     padding-left: 27.5%;
+     padding-top: 1.5%;
+
+   }
+
+   .site-main .third-area .third-title h2 > span{
+       display: block;
+       font-family: 'Anton', sans-serif;
+       letter-spacing: 18px;
+       font-size: 24px;
+   }
+
+   .site-main .third-area .third-title .paragraph > p{
+       padding: .4rem 0;
+       font-size: 18.4px;
+   }
+   .site-main .third-area .row .third-image{
+     width: 105%;
+     position:static;
+     padding-right: 20%;
+
+   }
+
+
+
+   /*    third   */
+
+
+   /*    forth  */
+
+   .site-main .forth-area{
+       padding: 0.5rem 2rem;
+   }
+
+   .site-main .forth-area .row{
+
+     padding-left: 27.5%;
+     padding-top: 3%;
+
+   }
+   .site-main .forth-area .row .forth-image{
+     padding-top: 5%;
+     width: 65%;
+   }
+
+   .site-main .forth-area .forth-title h2 > span{
+       display: block;
+       font-family: 'Anton', sans-serif;
+       letter-spacing: 18px;
+       font-size: 24px;
+   }
+
+   .site-main .forth-area .forth-title .paragraph > p{
+       padding: .4rem 0;
+       font-size: 18.4px;
+   }
+
+
+
+
+
+   .site-main .blog-area .blog-title{
+       padding: 1rem 8rem;
+       padding-left: 22%;
+
+   }
+
+   .site-main .blog-area .blog-title h1::after{
+     content: " ";
+     height: 2px;
+     width: 10vw;
+     background: black;
+     display: inline-block;
+     margin-right: 5%;
+     transform: translateY(-10px)translateX(+1px);
+   }
+   .site-main .blog-area .blog-title h1::before{
+     content: " ";
+     height: 2px;
+     width: 10vw;
+     background: black;
+     display: inline-block;
+     margin-right: 8%;
+     transform: translateY(-10px) translateX(+30px);
+
+   }
+
+
+
+
+
+
+   .section-1 {
+     padding: 3vmin 0vmin;
+   }
+
+   .section-1 .row .col-md-6 .pray img {
+     opacity: 0.8;
+     width: 75%;
+     position: static;
+     border-radius: 0.2em;
+   }
+
+   .section-1 .row .col-md-6:last-child {
      position: relative;
-     left: 22.4%;
    }
 
-   .input_user {
-     width: 130%;
-     height: 110%;
-     background-color: #f6f5f1;
-     border: none;
-     box-sizing: border-box;
+   .section-1 .row .col-md-6 .panel {
+     position: static;
+     background: white;
+     border-radius: 3px;
+     text-align: left;
+     padding: 2vmin 1vmin 4vmin 4vmin;
+     box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+     font-family: var(--Rubik);
+     z-index: 1;
+   }
+
+   .section-1 .row .col-md-4 .panel h1 {
+     font-weight: bold;
+     padding: 0.3em 0;
+     font-size: 1em;
+   }
+
+   .section-1 .row .col-md-4 .panel p {
+     font-size: 0.6em;
+     color: rgba(0, 0, 0, 0.5);
    }
 
 
-   .btn_submit {
-     position: relative;
-     left: 44.4%;
-     top: 55%;
+   .gfg {
+     width: 100%;
+   }
+   .first-txt {
+       font-size: 55px;
+       color: white;
+       font-family: 'Sora', sans-serif;
+       position: absolute;
+       top: 28.5%;
+       left: 25%;
+}
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 425px){
+    .header_area .main-menu .navbar,
+    .site-main .services-area
+    {
+        padding: 4%;
+        margin: 0%;
+    }
+
+
+    .header_area .main-menu .navbar .navbar-brand{
+      display: none;
+    }
+
+
+    .site-main{
+      width: 550px;
+      margin: 0%;
+    }
+
+    .site-main .site-banner .site-title h1{
+          position: static;
+          font-size:34px;
+          padding-right: 14%;
+          margin: 0%;
+
+        }
+        .site-main .site-banner .site-title h3{
+          position: static;
+          margin: 0%;
+          padding-top: 25%;
+          font-size: 32px;
+          padding-right: 18%;
+        }
+
+        .site-main .site-banner .banner {
+          position: static;
+          width: 100%;
+          padding: 0;
+          margin: 0%;
+        }
+
+        .site-main .site-banner .site-button{
+          position: static;
+          padding-left: 308px;
+          margin: 0%;
+        }
+
+
+
+    .about-area .about-title{
+      position: static;
+      margin: 0%;
+    }
+
+
+    .site-main .about-area .row .about-image{
+      display: none;
+      margin: 0%;
+    }
+
+    .site-main .about-area .row{
+      padding-left: 38px;
+      margin: 0%;
+    }
+
+
+    .site-main .about-area .about-title .paragraph > p{
+        padding: .2rem 0;
+        font-size: 18.2px;
+        margin: 0%;
+    }
+
+
+
+  .site-main .services-area .services-title{
+      padding:0;
+      margin: 0%;
+      padding-top: 8%;
+      padding-right: 5%;
+      padding-bottom: 3%;
+  }
+  .site-main .services-area .services-title h1::before{
+       content: " ";
+       height: 2px;
+       width: 10vw;
+       background: black;
+       display: inline-block;
+       margin-right:10%;
+       transform: translateY(-10px) translateX(47px);
+
+     }
+
+
+
+   .site-main > .services-area .services{
+       margin-left: 5%;
+       margin-right: 6%;
+       background: #f6f5f5  ;
+       padding-left: 2%;
+       padding: 2rem 3;
+       width: 16rem;
+       margin: 2rem 6.2rem;
+       transition: box-shadow .8s ease;
+  }
+
+   .site-main .project-area .project-title{
+     padding-left: 0.5%;
+     margin: 0%;
    }
 
-   .header_area .main-menu .image{
-      width: 8%;
-
-}
-
-.gfg {
-  width: 100%;
-  position: relative;
-  padding-top: 8%;
-}
-
-.first-txt {
-  font-size: 36px;
-  color: white;
-  font-family: 'Sora', sans-serif;
-  position: absolute;
-  top: 28.5%;
-  left: 24%;
-}
-
-.site-main .a-area .row {
-  padding-left: 24%;
-}
-.site-main .a-area .row .about-image {
-  width: 92%;
-  position: relative;
-  right: 14%;
-
-}
-
-.site-main .a-area .about-title h2>span {
-    padding-top: 15%;
-
+   .site-main .project-area .project-title h1::before{
+    content: " ";
+    height: 2px;
+    margin: 0%;
+    width: 9.5vw;
+    background: black;
+    display: inline-block;
+    margin-right: 10%;
+    transform: translateY(-10px) translateX(+50px);
   }
 
 
 
 
+  .site-main .first-area{
+       padding: 1rem 2rem;
+margin: 0%;
+   }
+
+   .site-main .first-area .row{
+     padding-left: 18%;
+margin: 0%;
+   }
+
+   .site-main .first-area .first-title h2 > span{
+       display: block;
+       font-family: 'Anton', sans-serif;
+       letter-spacing: 16px;
+       font-size: 24px;
+margin: 0%;
+   }
+
+   .site-main .first-area .first-title .paragraph > p{
+       padding: .4rem 0;
+margin: 0%;       font-size: 18px;
+       width: 120%;
+   }
+
+   .site-main .first-area .row .first-image{
+    margin: 0%; padding-top: 5%;
+     position: static;
+     padding-right:2%;
+     width: 90%;
+   }
+
+       .site-main .secondary-area{
+          margin: 0%; padding: .1rem 2.5rem;
+       }
+
+       .site-main .secondary-area .row{
+
+         padding-left: 18%;
+         padding-top: 1%;
+margin: 0%;
+       }
+
+       .site-main .secondary-area .secondary-title h2 > span{
+           display: block;
+           font-family: 'Anton', sans-serif;
+           letter-spacing: 10px;
+           margin: 0%;font-size: 23px;
+       }
+
+       .site-main .secondary-area .secondary-title .paragraph > p{
+           padding: .4rem 0;margin: 0%;
+           font-size: 18px;
+           width: 120%;
+       }
+       .site-main .secondary-area .row .secondary-image{
+         width: 115%;margin: 0%;
+         padding-right: 25%;
+         position: static;
+       }
 
 
 
+       /*    third   */
+       .site-main .third-area{
+           padding: 0.5rem 3rem;margin: 0%;
+       }
+
+       .site-main .third-area .row{
+
+         padding-left: 18%;
+         padding-top: 1.5%;margin: 0%;
+
+       }
+
+       .site-main .third-area .third-title h2 > span{
+           display: block;margin: 0%;
+           font-family: 'Anton', sans-serif;
+           letter-spacing: 16px;
+           font-size: 24px;
+       }
+
+       .site-main .third-area .third-title .paragraph > p{
+           padding: .4rem 0;
+           font-size: 18px;
+           width: 120%;margin: 0%;
+       }
+       .site-main .third-area .row .third-image{
+         width: 115%;
+         padding-left: 4%;margin: 0%;
+         position:static;
+
+       }
 
 
 
-}
+       /*    third   */
 
 
-@media (max-width: 375px){
+       /*    forth  */
 
-  .site-main .about-area .row .about-image{
-      padding-top: 20%;
-      padding-left:102px;
-  }
+       .site-main .forth-area{
+           padding: 0.5rem 2rem;margin: 0%;
+       }
 
-.please{
-  width: 84%;
-}
+       .site-main .forth-area .row{
 
-.input_user {
-  width: 128%;
-  height: 110%;
-  background-color: #f6f5f1;
-  border: none;
-  box-sizing: border-box;
-}
+         padding-left: 18%;margin: 0%;
+         padding-top: 3%;
 
+       }
+       .site-main .forth-area .row .forth-image{
+         padding-top: 5%;
+         position: static;margin: 0%;
+         padding-right: 4%;
+         width: 80%
+     }
 
-.btn_submit {
-  position: relative;
-  left: 46%;
-  top: 55%;
-}
+       .site-main .forth-area .forth-title h2 > span{
+           display: block;margin: 0%;
+           font-family: 'Anton', sans-serif;
+           letter-spacing: 16px;
+           font-size: 24px;
+       }
 
+       .site-main .forth-area .forth-title .paragraph > p{
+           font-size: 18px;
+           padding: .4rem 0;margin: 0%;
+           width: 120%
+       }
+       .site-main .blog-area .blog-title{
+          padding: 0;
+          padding-left: 2%;
+margin: 0%;
 
-
-.gfg {
-  width: 104%;
-  position: relative;
-  padding-top: 8%;
-}
-
-.first-txt {
-  font-size: 31px;
-  color: white;
-  font-family: 'Sora', sans-serif;
-  position: absolute;
-  top: 28.5%;
-  left: 22%;
-}
-}
+      }
 
 
+        .site-main > .blog-area .services{
+            margin-left: 5%;
+            margin-right: 5%;
+            background: #f6f6f6  ;
+            padding: 2rem .5rem;margin: 0%;
+            width: 17rem;
+            height: 80%;
+            margin: 2rem 4.5rem;
+            transition: box-shadow .6s ease;
+        }
 
 
+           .section-1 {
+             padding: 2vmin 0vmin;margin: 0%;
+           }
 
-}
+           .section-1 .row .col-md-6 .pray img {
+             opacity: 0.8;margin: 0%;
+             width: 80%;
+             border-radius: 0.3em;
+           }
 
-
-@media (max-width: 325px){
-
-  .gfg {
-    width: 120%;
-    position: relative;
-    padding-top: 8%;
-  }
-
-  .first-txt {
-    font-size: 28px;
-    color: white;
-    font-family: 'Sora', sans-serif;
-    position: absolute;
-    top: 28.5%;
-    left: 20%;
-  }
-
-  .site-main .a-area .row {
-    padding-left: 28%;
-  }
+           .section-1 .row .col-md-6:last-child {
+             position: static;margin: 0%;margin: 0%;
+           }
 
 
-  }
+           .section-1 .row .col-md-6 .panel {
+             position: static;
+             background: white;
+             border-radius: 2px;
+             text-align: left;
+             padding: 2vmin 1vmin 4vmin 4vmin;
+             box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+             font-family: var(--Rubik);
+             z-index: 1;
+           }
+
+           .section-1 .row .col-md-4 .panel h1 {
+             font-weight: bold;
+             padding: 0.3em 0;
+             font-size: 1em;
+           }
+
+           .section-1 .row .col-md-4 .panel p {
+             font-size: 2em;
+             color: rgba(0, 0, 0, 0.5);
+           }
+
+
+           .first-txt {
+                      font-size: 44px;
+                      color: white;
+                      font-family: 'Sora', sans-serif;
+                      position: absolute;
+                      top: 28.5%;
+                      left: 24%;
+                      margin: 0%;
+            }
+
+    }
